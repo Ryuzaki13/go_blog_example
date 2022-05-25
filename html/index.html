@@ -1,0 +1,14 @@
+{{define "index"}}
+
+    {{template "header"}}
+
+    <input id="Caption" value="sdfsdfsdf" type="text" placeholder="Заголовок">
+    <textarea id="Content" placeholder="Контент"></textarea>
+    <button onclick="CreateBlog()">Создать</button>
+        
+    {{template "about_content"}}
+    {{template "blog_content"}}
+
+    {{template "footer"}}
+
+{{end}}
